@@ -1,0 +1,17 @@
+.title{
+    position: absolute;
+    bottom:35%;
+    left:27%;
+    color:white;
+}
+.c-img{
+    position: relative;
+}
+.stroke{
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+.title h1{
+    margin: 0;
+    font-size:48px;
+}

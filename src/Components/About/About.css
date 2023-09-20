@@ -1,0 +1,84 @@
+.about{
+    display: flex;
+    padding:7%;
+    justify-content: space-between;
+    gap:20px;
+}
+.about-left{
+    width:50%;
+    margin-left: 50px;
+}
+.girl{
+   width:70%;
+   z-index: 100;
+   transition: all .3s ease-in-out;
+}
+.abt-img img:hover{
+    transform: scale(0.95);
+}
+.abt-img{
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 100;
+}
+.abt-bg{
+    width:70%;
+    height:100%;
+    background-color: #2095AE;
+    position: absolute;
+    top:30px;
+    left:25px;
+}
+.about-right{
+    margin-left: 70px;
+}
+.sq-dots{
+    width:45%;
+    height:45%;
+    position: absolute;
+    top:-25px;
+    left:-25px;
+}
+.abt-left-p1{
+    color:#2095AE;
+    font-weight: 400;
+}
+.abt-left-h1{
+    color:#0f2454;
+}
+.abt-left-h1 span{
+    color:#2095AE;
+}
+.abt-left-p2{
+    color:#676977;
+}
+.check{
+    color:#2095AE;
+    font-size: 35px;
+}
+.tick-content-1{
+    display: flex;
+    align-items: flex-start;
+    gap:15px;
+}
+.tick-content-1 p{
+    margin-top: 10px;
+}
+.abt-contact-left{
+    color:#2095AE;
+    font-size: 35px;
+    margin-top:10px;
+}
+.abt-contact-right h2{
+    color:#2095AE;
+    margin:0;
+}
+.about-contact{
+    display: flex;
+    margin-top:15px;
+    gap:30px;
+}
+.abt-contact-right p{
+    margin: 0;
+}
