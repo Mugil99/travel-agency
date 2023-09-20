@@ -1,0 +1,153 @@
+.CardiB{
+}
+.CardiB p,.Cardih1{
+    color:#2095AE !important;
+}
+.CardiB h1{
+    color:#0f2454;
+    margin-bottom: 30px;
+}
+
+.Cards {
+    width: 100%;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    max-width: 820px;
+    height:400px;
+}
+
+.card--1 .card__img, .card--1 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+.card--2 .card__img, .card--2 .card__img--hover {
+    background-image: url('https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
+}
+
+.card__like{
+    font-size: 25px;
+    color: white !important;
+    margin-top: 10px;
+}
+
+.card__clock {
+    width: 15px;
+  vertical-align: middle;
+    fill: #AD7D52;
+}
+.card__time {
+    font-size: 12px;
+    color: #AD7D52;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+.card__clock-info {
+    float: right;
+}
+
+.card__img {
+  visibility: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 235px;
+  /* border-top-left-radius: 12px;
+border-top-right-radius: 12px; */
+  
+}
+
+.card__info-hover {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    padding:16px 10px;
+  width: 90%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.4s all ease-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+  position: absolute;
+    height: 235px;
+  /* border-top-left-radius: 12px;
+border-top-right-radius: 12px; */
+top: 0;
+  
+}
+.Card {
+  margin-right: 25px;
+  transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: #fff;
+    width: 100%;
+  position: relative;
+  /* border-radius: 12px; */
+  overflow: hidden;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+}
+.Card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.10, 1.10);
+}
+
+.card__info {
+z-index: 2;
+  background-color: #fff;
+  /* border-bottom-left-radius: 12px;
+border-bottom-right-radius: 12px; */
+   padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+  color: #868686;
+}
+
+.card__title {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-family: 'Roboto Slab', serif;
+    color:#0f2454;
+    font-weight:700;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #0f245465 ;
+
+}
+
+.card__by {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.card__author {
+    font-weight: 600;
+    text-decoration: none;
+    color: #AD7D52;
+}
+
+.Card:hover .card__img--hover {
+    height: 100%;
+    opacity: 0.6;
+}
+
+.Card:hover .card__info {
+    background-color: transparent;
+    position: relative;
+}
+
+.Card:hover .card__info-hover {
+    opacity: 1;
+}
