@@ -24,12 +24,12 @@ function Destination() {
     dots
     loop
    >
-            <Card img={img1}/>
-            <Card img={img2}/>
-            <Card img={img3}/>
-            <Card img={img4}/>
-            <Card img={img5}/>
-            <Card img={img6}/>
+            <Card img={img1} place={"CANADA"}/>
+            <Card img={img2} place={"DUBAI"}/>
+            <Card img={img3} place={"ITALY"}/>
+            <Card img={img4} place={"PARIS"}/>
+            <Card img={img5} place={"MALDIVES"}/>
+            <Card img={img6} place={"GREECE"}/>
         
    </OwlCarousel>
    </div>

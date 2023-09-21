@@ -3,7 +3,7 @@ import './Card.css';
 import { SlLocationPin } from "react-icons/sl";
 import { GrLocation } from "react-icons/gr";
 import { FaLongArrowAltRight } from 'react-icons/fa';
-function Card({img}) {
+function Card({img,place}) {
   return (
     
     <section class="Cards">
@@ -26,7 +26,7 @@ function Card({img}) {
        
       <div class="card__info">
         {/* <span class="card__category"> Recipe</span> */}
-        <h3 class="card__title">ITALY</h3>
+        <h3 class="card__title">{place}</h3>
         <span class="card__by"> <a href="#" class="card__author" title="author">EXPLORE</a><FaLongArrowAltRight style={{marginLeft:'10px', color:'#AD7D52'}}/></span>
       </div>
     </article>

@@ -139,12 +139,12 @@ border-bottom-right-radius: 12px; */
 .card__author {
     font-weight: 600;
     text-decoration: none;
-    color: #AD7D52;
+    color: #e7a163;
 }
 
 .Card:hover .card__img--hover {
     height: 100%;
-    opacity: 0.6;
+    filter:brightness(50%);
 }
 
 .Card:hover .card__info {
@@ -153,5 +153,11 @@ border-bottom-right-radius: 12px; */
 }
 
 .Card:hover .card__info-hover {
-    opacity: 1;
+    filter:brightness(100%);
+}
+.Card:hover .card__category{
+  color:white;
+}
+.Card:hover .card__title{
+  color:white;
 }

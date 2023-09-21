@@ -1,8 +1,12 @@
 import React from 'react'
 import './Blog.css';
+import b1 from '../../assets/blog-img-1.jpg';
+import b2 from '../../assets/blog-img-2.jpg';
+import b3 from '../../assets/blog-img-3.jpg';
 import BlogImg from './BlogImg/BlogImg';
 
 function Blog() {
+    console.log(b1);
   return (
     <div className='blog'>
         <div className='blog-title'>
@@ -10,9 +14,9 @@ function Blog() {
             <h1 style={{color:"#2095ae"}}>TRAVEL <span style={{color:"white"}}>EXPERIENCE</span></h1>
         </div>
         <div className='blog-container'>
-            <BlogImg/>
-            <BlogImg/>
-            <BlogImg/>
+            <BlogImg img={b1} p={"TRAVEL"} h2={"Practical Information for Travelling to Egypt"} />
+            <BlogImg img={b2} p={"TOURS"} h2={"Most Popular Yarcht Charter Routes"}/>
+            <BlogImg img={b3} p={"DESTINATIONS"} h2={"Tips Towards a Flawless Honeymoon"}/>
         </div>
     </div>
   )
