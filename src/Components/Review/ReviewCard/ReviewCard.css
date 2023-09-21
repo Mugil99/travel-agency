@@ -4,6 +4,12 @@
     gap:30px;
     color:#676977;
     background-color: white;
+    font-family: 'Barlow',sans-serif;
+    line-height: 1.75em;
+    cursor: grab;
+}
+.review-card:active{
+    cursor: grabbing;
 }
 .review-card-bottom{
     display: flex;

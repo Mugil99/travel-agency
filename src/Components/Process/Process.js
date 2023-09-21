@@ -53,7 +53,7 @@ function Process() {
                   } +
                 </h2>
             </ScrollTrigger>
-            <h3>Flight Booking</h3>
+            <h3>Amazing Tour</h3>
         </div>
         <div className='process2' style={{marginBottom:"70px"}}>
             <img src={arrow2}></img>
@@ -76,7 +76,7 @@ function Process() {
                   } +
                 </h2>
             </ScrollTrigger>
-            <h3>Flight Booking</h3>
+            <h3>Cruises Booking</h3>
         </div>
         <div className='process2'>
             <img src={arrow1}></img>
@@ -99,7 +99,7 @@ function Process() {
                   } +
                 </h2>
             </ScrollTrigger>
-            <h3>Flight Booking</h3>
+            <h3>Hotel Booking</h3>
         </div>
     
     </div>

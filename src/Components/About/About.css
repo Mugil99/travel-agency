@@ -43,15 +43,20 @@
 .abt-left-p1{
     color:#2095AE;
     font-weight: 400;
+    font-family: 'Barlow', sans-serif;
 }
 .abt-left-h1{
     color:#0f2454;
+    font-family: 'Poppins',sans-serif;
 }
 .abt-left-h1 span{
     color:#2095AE;
+    font-family: 'Poppins',sans-serif;
 }
 .abt-left-p2{
     color:#676977;
+    font-family: 'Barlow',sans-serif;
+    margin-bottom: 10px;
 }
 .check{
     color:#2095AE;
@@ -69,6 +74,7 @@
     color:#2095AE;
     font-size: 35px;
     margin-top:10px;
+    font-family: 'Barlow',sans-serif;
 }
 .abt-contact-right h2{
     color:#2095AE;
@@ -81,4 +87,17 @@
 }
 .abt-contact-right p{
     margin: 0;
+}
+@media only screen and (max-width: 930px){
+    .abt-left-h1{
+        font-size: 23px;
+    }
+    .abt-cnt{
+        display: none;
+    }
+}
+@media only screen and (max-width: 880px){
+  .abtp{
+    display: none;
+  }
 }

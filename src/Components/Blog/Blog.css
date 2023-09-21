@@ -11,3 +11,9 @@
 .active{
     background-color: transparent;
 }
+.blog-title p{
+    font-family: 'Barlow',sans-serif
+}
+.blog-title h1{
+    font-family: 'Poppins',sans-serif
+}

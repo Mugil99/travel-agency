@@ -110,4 +110,36 @@
     background-color: #2095AE;
     opacity: 1;
   }
-  
+.dot.active{
+  background-color: #2095AE;
+}
+@media only screen and (max-width: 1300px){
+.title{
+  left:25%
+}
+}
+@media only screen and (max-width: 1200px){
+  .title{
+    left:23%
+  }
+}
+@media only screen and (max-width: 1000px){
+  .title{
+    left:20%
+  }
+}
+@media only screen and (max-width: 950px){
+  .title{
+    left:15%
+  }
+}
+@media only screen and (max-width: 860px){
+  .title{
+    left:13%
+  }
+}
+@media only screen and (max-width: 770px){
+  .title{
+    left:11%;
+  }
+}

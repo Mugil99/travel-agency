@@ -1,5 +1,5 @@
 .review{
-    background-image: url('../../assets/review-bg.jpg');
+    background:linear-gradient(rgba(15, 15, 15, 0.5), rgba(14, 13, 13, 0.5)), url('../../assets/review-bg.jpg');
     min-height:580px;
     background-attachment: fixed;
   background-position: center;
@@ -9,10 +9,12 @@
   align-items: center;
   justify-content: center;
   gap:13%;
+  padding: 0px 7%;
 }
 .review-left{
     color:white;
-
+    font-family: 'Poppins',sans-serif;
+    /* line-height: 1.5rem; */
 }
 .review-right{
     width:350px;
@@ -24,7 +26,19 @@
    display: flex;
    flex-direction: column;
    justify-content: space-between;
+   
 }
 .review-right-content{
     margin-top: 20px;
+}
+.review-right-content p{
+    font-family: 'Barlow',sans-serif
+}
+.review-right-content h1{
+    font-family: 'Poppins',sans-serif;
+}
+@media only screen and (max-width: 930px){
+    .review-left h1{
+        font-size: 24px;
+    }
 }

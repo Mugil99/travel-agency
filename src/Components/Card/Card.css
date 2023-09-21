@@ -127,7 +127,7 @@ border-bottom-right-radius: 12px; */
     font-weight:700;
     padding-bottom: 10px;
     border-bottom: 1px solid #0f245465 ;
-
+    font-family: 'Poppins',sans-serif
 }
 
 .card__by {
@@ -140,6 +140,7 @@ border-bottom-right-radius: 12px; */
     font-weight: 600;
     text-decoration: none;
     color: #e7a163;
+    font-family: 'Poppins',sans-serif
 }
 
 .Card:hover .card__img--hover {

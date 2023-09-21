@@ -3,6 +3,8 @@
     bottom:35%;
     left:27%;
     color:white;
+    font-family: 'Poppins', sans-serif;
+    ;
 }
 .c-img{
     position: relative;
@@ -14,4 +16,7 @@
 .title h1{
     margin: 0;
     font-size:48px;
+}
+.c-img img{
+    filter: brightness(70%);
 }

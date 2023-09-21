@@ -116,3 +116,50 @@ ul {
 .contact-body p{
   color:rgba(255,255,255,0.8)
 }
+.contact-body p{
+  font-family: 'Barlow',sans-serif;
+  line-height: 1.75em;
+}
+.contact-body h2,.contact-body h3{
+  font-family: 'Poppins',sans-serif;
+}
+
+@media only screen and (max-width: 1024px){
+  .contact-body-sec1-div{
+     padding-right: 10px;
+  }
+}
+@media only screen and (max-width: 1024px){
+  .contact-body-sec1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    border: none;
+  }
+  .contact-body-sec1 div{
+    width:50%;
+  }
+  
+}
+@media only screen and (max-width: 1160px){
+  .contact-body-sec2-div1,.contact-body-sec2-div2,.contact-body-sec2-div3{
+    width:30% ;
+   }
+}
+
+@media only screen and (max-width: 1160px){
+  .contact-input-sec2{
+     justify-content: center;
+
+  }
+  .button{
+    padding: 10px 5px;
+  }
+}
+@media only screen and (max-width: 920px){
+   input{
+    width:60%;
+   }
+}
