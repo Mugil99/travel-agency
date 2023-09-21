@@ -8,3 +8,6 @@
     padding:15% 30px;
     padding-top: 10%;
 }
+.active{
+    background-color: transparent;
+}

@@ -12,6 +12,7 @@
     width:100%;
     gap:37%;
     border-bottom:1px solid rgba(255, 255, 255, 0.658);
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
 }
 
 .Navbar__Title {

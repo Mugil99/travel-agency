@@ -3,6 +3,7 @@
     flex-direction: column;
     gap:30px;
     color:#676977;
+    background-color: white;
 }
 .review-card-bottom{
     display: flex;
@@ -13,8 +14,19 @@
     margin: 0;
 }
 .avatar img{
-    width:70px;
+    width:70px !important;
 }
 .star{
     color:goldenrod;
+}
+/* .owl-theme .owl-dots .owl-dot span{
+  background-color:black !important
+} */
+
+
+/* .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+   background-color: #2095AE;
+} */
+.owl-dots{
+    margin-top: 30px !important;
 }

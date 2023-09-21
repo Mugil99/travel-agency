@@ -1,6 +1,7 @@
 import React from 'react'
 import './Blog.css';
 import BlogImg from './BlogImg/BlogImg';
+
 function Blog() {
   return (
     <div className='blog'>

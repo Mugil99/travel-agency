@@ -12,10 +12,10 @@ import img5 from '../../assets/owl5.jpg';
 import img6 from '../../assets/owl6.jpg';
 function Destination() {
   return (
-    <>
+    <div className='destination'>
     <div className='CardiB'>
         <p>TOP DESTINATION</p>
-        <h1>POPULAR  <span style={{color:"#2095AE "}}>DESTINATION</span></h1>
+        <h1>POPULAR  <span style={{color:"white "}}>DESTINATION</span></h1>
     </div>
    <OwlCarousel
     className='owl-theme'
@@ -32,7 +32,7 @@ function Destination() {
             <Card img={img6}/>
         
    </OwlCarousel>
-   </>
+   </div>
   )
 }
 

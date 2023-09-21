@@ -9,6 +9,7 @@ import Review from './Components/Review/Review';
 import ContactHeader from './Components/Contact/ContactHeader/ContactHeader';
 import ContactBody from './Components/Contact/ContactBody/ContactBody';
 import Blog from './Components/Blog/Blog';
+import Process from './Components/Process/Process';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <CarouselPage/>
       <About/>
       <Destination/>
+      <Process/>
       <Blog/>
       <Review/>
       <ContactHeader/>

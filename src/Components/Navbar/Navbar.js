@@ -1,7 +1,8 @@
 import React, { useRef, useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./Navbar.css";
-import logo from '../../assets/logo-light.png'
+import logo from '../../assets/logo-light.png';
+import logo2 from '../../assets/logo-dark.png';
 function Navbar() {
 
     // to access a DOM element directly
@@ -12,12 +13,13 @@ function Navbar() {
     const showNavbar = () => {
         navRef.current.classList.toggle("Navbar__Responsive");
     };
-
+    const [logoChange,setLogoChange]=useState(true);
     const [navColor, setnavColor] = useState("transparent");
     const [color, setColor] = useState("#C5C6C7")
     const listenScrollEvent = () => {
-        window.scrollY > 10 ? setnavColor("white") : setnavColor("transparent");
-        window.scrollY > 10 ? setColor("#1F2833") : setColor("white");
+        window.scrollY > 15 ? setnavColor("white") : setnavColor("transparent");
+        window.scrollY > 15 ? setColor("#1F2833") : setColor("white");
+        window.scrollY > 15 ? setLogoChange(false) : setLogoChange(true);
     };
     useEffect(() => {
         window.addEventListener("scroll", listenScrollEvent);
@@ -33,8 +35,10 @@ function Navbar() {
                 color: color
             }}>
             <div className='Navbar__Title' onClick={() => document.body.scrollTop = document.documentElement.scrollTop = 0}>
-                <img src={logo}></img>
+                <img src={logo} style={{display:logoChange?"block":"none"}}></img>
+                <img src={logo2} style={{display:logoChange?"none":"block"}}></img>
             </div>
+            
             <nav ref={navRef} className='Navbar__Items'>
                 <div onClick={() => { showNavbar(); document.getElementById('About').scrollIntoView() }}
                     className="Navbar__Link1"><p className="Navbar__LinkText">Home</p></div>

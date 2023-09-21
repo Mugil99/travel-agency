@@ -1,5 +1,8 @@
 import React from 'react'
 import './Review.css';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.min.css';
+import 'owl.carousel/dist/assets/owl.theme.default.min.css';
 import { FaPhoneVolume } from 'react-icons/fa6';
 import ReviewCard from './ReviewCard/ReviewCard';
 function Review() {
@@ -20,7 +23,20 @@ function Review() {
                 <p style={{color:"#2095ae"}}>TESTIMONIALS</p>
                 <h1 style={{color:"#0f2454", borderBottom:"1px solid #f4f5f8",paddingBottom:"10px"}}>TRAVELERS REVIEWS</h1>
             </div>
-            <ReviewCard/>
+    <OwlCarousel
+    className='owl-theme'
+    items="1"
+    autoplay
+    // nav
+    dots
+    loop
+   >
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+        <ReviewCard/>
+   </OwlCarousel>
         </div>
     </div>
   )

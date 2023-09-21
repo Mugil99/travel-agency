@@ -1,0 +1,37 @@
+.flat-icon-inner{
+    width:60px;
+    background-color:#2094ae75 ;
+    border-radius: 50%;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0px 0px 10px 5px #2094ae75;
+}
+.flat-icon{
+  border:10px solid#2094ae75;
+  width:fit-content;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px 5px #2094ae75;
+  display: flex;
+}
+.process1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.process1 h2{
+    margin: 0;
+}
+.process1 h2,.process1 h3{
+    color:#0f2454;
+}
+.process{
+    display: flex;
+    justify-content: center;
+    padding: 120px 0px;
+    gap:20px;
+}
+.process2{
+    align-items: center;
+    width:100px;
+}
