@@ -1,0 +1,20 @@
+.review-card{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    color:#676977;
+}
+.review-card-bottom{
+    display: flex;
+    align-items: center;
+    gap:20px;
+}
+.avatar-right div,p{
+    margin: 0;
+}
+.avatar img{
+    width:70px;
+}
+.star{
+    color:goldenrod;
+}

@@ -1,0 +1,8 @@
+.contact-header{
+    display: flex;
+    padding:30px 40px;
+    gap:40px;
+}
+.contact-header img{
+    width:130px;
+}

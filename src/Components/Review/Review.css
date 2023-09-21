@@ -1,0 +1,30 @@
+.review{
+    background-image: url('../../assets/review-bg.jpg');
+    min-height:580px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:13%;
+}
+.review-left{
+    color:white;
+
+}
+.review-right{
+    width:350px;
+    height:380px;
+    background-color: white;
+    transform: translateY(25%);
+    box-shadow: 2px 10px 8px #888888;
+   padding:50px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.review-right-content{
+    margin-top: 20px;
+}

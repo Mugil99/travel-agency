@@ -1,0 +1,118 @@
+.contact-body{
+    background-color: #0f2454;
+   padding:0px 50px;
+   padding: 70px;
+
+}
+.contact-body-sec1{
+    border:1px solid rgba(255, 255, 255, 0.1);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 30px;
+    align-items: center;
+}
+.contact-body-sec1-div{
+    display: flex;
+    align-items: center;
+   gap:20px;
+   border-right: 1px solid rgba(255, 255, 255, 0.1);
+   padding-right: 70px;
+}
+.contact-icon-sec1{
+    background-color: #2095AE;
+    padding:20px 25px;
+    font-size: 32px;
+}
+.contact-content-sec1 p,h3{
+    margin:0;
+    
+}
+.logo{
+    width:150px;
+}
+.contact-icon-sec2{
+    display: flex;
+    font-size: 16px;
+    gap:7px;
+    margin-top: 10px;
+}
+.contact-icon-sec2 div{
+    padding: 10px 13px;
+    background-color: #2095AE;
+    border-radius: 50%;
+}
+.contact-body-sec2-div1{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width:400px;
+}
+.contact-body-sec2-div2{
+    color:white;
+}
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #2095AE; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    font-size: 22px;
+  }
+  .input{
+    border:none;
+  }
+  .contact-body-sec3{
+    color:white;
+  }
+  .contact-input-sec2{
+        padding:10px 20px ;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+  }
+  .button{
+    background-color: #2095AE;
+    color: white;
+    padding:20px 30px;
+    font-size: 20px;
+  }
+  .contact-body-sec2{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    margin-top: 70px;
+  }
+  .contact-body-sec2-div3{
+    width:400px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+  }
+ .contact-body-sec2 h2,.contact-body-sec2 p{
+  margin-top:0
+ }
+ .contact-body-sec2-div3 h2{
+  margin-bottom: 0;
+ }
+ .contact-body-sec3{
+  margin-top: 40px;
+  padding-top:10px;
+  display: flex;
+  justify-content:flex-start;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);;
+ }
+ .contact-body-sec3 p{
+  margin-top: 35px;
+ 
+ }
+.contact-body p{
+  color:rgba(255,255,255,0.8)
+}

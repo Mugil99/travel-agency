@@ -21,7 +21,6 @@ function Destination() {
     className='owl-theme'
     items="4"
     autoplay
-    nav
     dots
     loop
    >

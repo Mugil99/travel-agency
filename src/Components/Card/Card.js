@@ -21,9 +21,9 @@ function Card({img}) {
          
       </div>
       <div class="card__img"></div>
-      <a href="#" class="card_link">
+      
          <div class="card__img--hover" style={{backgroundImage:`url(${img})`}}></div>
-       </a>
+       
       <div class="card__info">
         {/* <span class="card__category"> Recipe</span> */}
         <h3 class="card__title">ITALY</h3>

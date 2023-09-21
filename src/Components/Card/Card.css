@@ -16,8 +16,12 @@
     -webkit-justify-content: center;
     max-width: 820px;
     height:400px;
+    margin-bottom: 30px;
+    cursor: grab;
 }
-
+.Cards:active{
+  cursor: grabbing;
+}
 .card--1 .card__img, .card--1 .card__img--hover {
     background-image: url('https://images.pexels.com/photos/45202/brownie-dessert-cake-sweet-45202.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260');
 }
