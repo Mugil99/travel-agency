@@ -1,0 +1,10 @@
+.blog-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.blog{
+    background-color: #0F2454;
+    padding:15% 30px;
+    padding-top: 10%;
+}

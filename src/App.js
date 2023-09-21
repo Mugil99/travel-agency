@@ -8,6 +8,7 @@ import Destination from './Components/Destination/Destination';
 import Review from './Components/Review/Review';
 import ContactHeader from './Components/Contact/ContactHeader/ContactHeader';
 import ContactBody from './Components/Contact/ContactBody/ContactBody';
+import Blog from './Components/Blog/Blog';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CarouselPage/>
       <About/>
       <Destination/>
+      <Blog/>
       <Review/>
       <ContactHeader/>
       <ContactBody/>
