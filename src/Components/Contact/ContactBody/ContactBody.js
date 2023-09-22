@@ -7,7 +7,7 @@ import logo from '../../../assets/logo-light.png'
 import { FaFacebookF } from 'react-icons/fa';
 function ContactBody() {
   return (
-    <div className='contact-body'>
+    <div className='contact-body' id="Contact">
         <div className='contact-body-sec1'>
             <div className='contact-body-sec1-div'>
                 <div className='contact-icon-sec1'>

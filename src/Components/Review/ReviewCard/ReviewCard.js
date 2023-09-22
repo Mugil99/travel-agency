@@ -5,7 +5,7 @@ import { FaStar } from 'react-icons/fa6';
 function ReviewCard() {
   return (
     <div className='review-card'>
-        <p>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
+        <p className='review-card-p1'>Travel dapibus asue metus the nec feusiate era the miss hendreri the vemante the lemon insan toleon nectan feugiat erat hendrerit necuis vesaire tours inilla neca ine the sene miss habitan.</p>
         <div className='review-card-bottom'>
           <div className='avatar'>
             <img src={avatar1}></img>

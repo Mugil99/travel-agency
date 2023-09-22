@@ -68,3 +68,34 @@
         width:53%
      }
  }
+
+ @media only screen and (max-width: 650px){
+   .blog-img-img{
+      height:200px;
+      width:100%;
+   }
+   .blog-img{
+      width:100%;
+      overflow-y: hidden;
+   }
+   .blog-img-bottom{
+      left:200px;
+      bottom:-80px;
+   }
+   .blog-img:hover .blog-img-bottom{
+      bottom:15px;
+      cursor: pointer;
+   }
+ }
+ @media only screen and (max-width: 550px){
+   .blog-img-bottom{
+      left:100px;
+      bottom:-80px;
+   }
+ }
+ @media only screen and (max-width: 410px){
+   .blog-img-bottom{
+      left:100px;
+      bottom:-115px;
+   }
+ }

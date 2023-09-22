@@ -47,3 +47,33 @@
         width:40px;
     }
 }
+@media only screen and (max-width: 755px){
+.process2{
+    display: none;
+}
+.process{
+    justify-content: space-around;
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 755px){
+    .process{
+    font-size: 12px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .process{
+    font-size: 12px;
+    }
+    .flat-icon-inner{
+        width:30px;
+    }
+}
+@media only screen and (max-width: 450px){
+  .process{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 30px;
+  }
+}

@@ -22,3 +22,8 @@
         padding:20px 30px;
     }
 }
+@media only screen and (max-width: 450px){
+.contact-header{
+    display: none;
+}
+}

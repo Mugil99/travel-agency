@@ -162,4 +162,35 @@ ul {
    input{
     width:60%;
    }
+   .contact-body-sec1-div{
+    border:none;
+   }
+}
+@media only screen and (max-width: 700px){
+  .logo{
+    width:100px;
+}
+.contact-body-sec1-div{
+  width:100%;
+}
+.contact-body{
+  padding: 70px 40px;
+ }
+}
+@media only screen and (max-width: 500px){
+ 
+.contact-body-sec1-div{
+  width:100%;
+}
+.contact-body-sec2{
+  display: flex;
+  flex-direction: column;
+  gap:10px;
+}
+.contact-body-sec2-div1,.contact-body-sec2-div2,.contact-body-sec2-div3{
+  width:100% ;
+ }
+ .contact-body{
+  padding: 70px 25px;
+ }
 }

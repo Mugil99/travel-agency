@@ -42,7 +42,7 @@ console.log(content);
   });
 
   return (
-    <div className="carousel">
+    <div className="carousel" id="home">
       <div
         className="slide"
         onMouseEnter={handleMouse}

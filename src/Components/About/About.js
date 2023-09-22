@@ -6,7 +6,7 @@ import { FaCheckCircle,  } from 'react-icons/fa';
 import { FaPhoneVolume } from "react-icons/fa6";
 function About() {
   return (
-    <div className='about'>
+    <div className='about' id="About">
        <div className='about-left'>
             <p className='abt-left-p1'>THE BEST TRAVEL AGENCY</p>
             <h1 className='abt-left-h1'>DISCOVER THE <span>WORLD</span> WITH OUR GUIDE</h1>

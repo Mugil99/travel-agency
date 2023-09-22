@@ -20,3 +20,9 @@
 .c-img img{
     filter: brightness(70%);
 }
+@media only screen and (max-width: 770px){
+    .title h1{
+        font-size:35px;
+    }
+    
+  }

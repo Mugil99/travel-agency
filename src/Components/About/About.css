@@ -101,3 +101,35 @@
     display: none;
   }
 }
+@media only screen and (max-width: 755px){
+.about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abtp{
+    display:block
+}
+.about-left{
+    width:80%;
+}
+.abt-cnt{
+    display: inline-block;
+    margin-left: 10%;
+}
+.tick-content{
+    display: inline-block;
+}
+.about-right{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+}
+@media only screen and (max-width: 500px){
+    .about-right{
+        display: none;
+    }
+    .about-left{
+        margin: 0;
+    }
+}

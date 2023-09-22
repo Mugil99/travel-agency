@@ -11,18 +11,28 @@ import img4 from '../../assets/owl4.jpg';
 import img5 from '../../assets/owl5.jpg';
 import img6 from '../../assets/owl6.jpg';
 function Destination() {
+  const options={
+    items:1,
+    loop:true,
+    autoplay:true,
+    nav:false,
+    dot:true,
+    responsive:{
+      650:{
+        items:3
+      }
+    }
+  }
   return (
-    <div className='destination'>
+    <div className='destination' id="Destination">
     <div className='CardiB'>
         <p>TOP DESTINATION</p>
         <h1>POPULAR  <span style={{color:"white "}}>DESTINATION</span></h1>
     </div>
    <OwlCarousel
     className='owl-theme'
-    items="4"
-    autoplay
-    dots
-    loop
+    {...options}
+    
    >
             <Card img={img1} place={"CANADA"}/>
             <Card img={img2} place={"DUBAI"}/>

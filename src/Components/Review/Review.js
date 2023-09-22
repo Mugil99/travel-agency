@@ -30,6 +30,7 @@ function Review() {
     // nav
     dots
     loop
+    margin={30}
    >
         <ReviewCard/>
         <ReviewCard/>
