@@ -10,6 +10,7 @@ import ContactHeader from './Components/Contact/ContactHeader/ContactHeader';
 import ContactBody from './Components/Contact/ContactBody/ContactBody';
 import Blog from './Components/Blog/Blog';
 import Process from './Components/Process/Process';
+import Domestic from './Components/Domestic/Domestic';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Destination/>
       <Process/>
       <Blog/>
+      <Domestic/>
       <Review/>
       <ContactHeader/>
       <ContactBody/>

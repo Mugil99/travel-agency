@@ -1,0 +1,20 @@
+.domestic-title p,h1{
+    margin:0;
+    margin-bottom: 10px;
+}
+.domestic-img img{
+    width:50%;
+}
+.domestic-img{
+    display: flex;
+    flex-flow: wrap;
+    position: relative;
+}
+.abs{
+    position: absolute;
+    top:43%;
+    height: fit-content;
+}
+.domestic{
+    padding: 70px 50px;
+}
